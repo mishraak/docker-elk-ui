@@ -1,4 +1,4 @@
-# Docker-elk
+# Docker-elk-ui
 
 This is a custom image for UI I'm using for my docker-elk project. 
 We are not actually installing Kibana but we are installing Nginx on top of debian:wheezy image and exposing appropriate ports and setting config. We have included code for our scatterplot in custompages folder to be deployed to the root of the nginx web server.
