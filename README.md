@@ -5,6 +5,8 @@ We are not actually installing Kibana but we are installing Nginx on top of debi
 
 Even though this image is built to ideally run in conjunction with other two images but you may edit and use it by updating config and creating a separate image.
 
+You can use docker-compose.yml in this folderto connect my docker-elasticsearch, docker-logstash and docker-elk-ui images together using docker-compose.
+
 ## Getting Started
 
 There are two ways to use this image.
